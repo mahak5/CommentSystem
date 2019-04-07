@@ -54,24 +54,3 @@ Step 5
 =====
 Inside the repository folder run `ng serve -o` for a dev server. The app will automatically load or you may navigate to `http://localhost:4200/`
 
-Screenshots
-====
-Setting up nodemon server
-
-![screenshot] (5.PNG)
-
-Setting up ng serve -o
-
-![screenshot] (4.PNG)
-
-Main page
-
-![screenshot] (1.PNG)
-
-Comments will be listed after posting them
-
-![screenshot] (2.PNG)
-
-Increment in upvote after clicking
-
-![screenshot] (3.PNG)
