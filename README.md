@@ -1,4 +1,5 @@
 #Commentupdown
+
 This is a comment creating and voting system built on MEAN stack.
 The user can post a comment after writing it in the text field provided.
 It also prompts if an empty comment is tried to be submitted.
@@ -6,6 +7,7 @@ The posted comments can be seen below the post comments area.
 One can also upvote and downvote the comments.
 
 ##Pre-requisites
+
 A MEAN enviroment local testing server
 MongoDB cloud
 
