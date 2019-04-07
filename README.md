@@ -59,3 +59,19 @@ Screenshots
 Setting up nodemon server
 
 ![screenshot] (https://github.com/mahek5/CommentSystem/blob/master/Screenshots/5.PNG)
+
+Setting up ng serve -o
+
+![screenshot] (https://github.com/mahek5/CommentSystem/blob/master/Screenshots/4.PNG)
+
+Main page
+
+![screenshot] (https://github.com/mahek5/CommentSystem/blob/master/Screenshots/1.PNG)
+
+Comments will be listed after posting them
+
+![screenshot] (https://github.com/mahek5/CommentSystem/blob/master/Screenshots/2.PNG)
+
+Increment in upvote after clicking
+
+![screenshot] (https://github.com/mahek5/CommentSystem/blob/master/Screenshots/3.PNG)
