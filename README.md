@@ -1,27 +1,44 @@
-# Commentupdown
+#Commentupdown
+This is a comment creating and voting system built on MEAN stack.
+The user can post a comment after writing it in the text field provided.
+It also prompts if an empty comment is tried to be submitted.
+The posted comments can be seen below the post comments area.
+One can also upvote and downvote the comments.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+##Pre-requisites
+A MEAN enviroment local testing server
+MongoDB cloud
 
-## Development server
+Node.js
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+A web browser
+Google Chrome
 
-## Code scaffolding
+##Steps to run the application
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+####Step 1
+Install npm in root and root>api using command prompt
+npm install
 
-## Build
+####Step 2
+Install Angular CLI in root using command prompt
+npm install -g @angular/cli
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+####Step 3
+After having cloned the repository the user needs to modify the DB.js file in api folder.
 
-## Running unit tests
+'mongodb://<DBusername>:<DBpassword>@host:port/dbname'
+```
+Proper data should be fed in place of DBusername, DBpassword, @host, port, dbname
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The app will automatically reload if you change any of the source files.
 
-## Running end-to-end tests
+####Step 4
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Inside the api folder run `nodemon server` for a MongoDB server. 
 
-## Further help
+####Step 5
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Inside the repository folder run `ng serve -o` for a dev server. The app will automatically load or you may navigate to `http://localhost:4200/`
+
+##Screenshots
