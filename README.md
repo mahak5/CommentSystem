@@ -56,3 +56,6 @@ Inside the repository folder run `ng serve -o` for a dev server. The app will au
 
 Screenshots
 ====
+Setting up nodemon server
+
+![screenshot] (https://github.com/mahek5/CommentSystem/blob/master/Screenshots/5.PNG)
